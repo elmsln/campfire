@@ -1,0 +1,24 @@
+{
+  "name": "hax-campfire",
+  "version": "1.0.0",
+  "description": "Access information about HAXCamp events with this command line tool!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "bin": "./index.js",
+  "keywords": [],
+  "author": "Andrew Maier",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.1",
+    "nanospinner": "^1.0.0",
+    "node-fetch": "^3.2.2"
+  }
+}
